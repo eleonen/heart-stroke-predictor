@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "stroke-predictor"
+version = "0.1.0"
+description = ""
+authors = ["Erikas Leonenka <e.leonenka@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.5"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.3"
+ipykernel = "^6.29.5"
+statsmodels = "^0.14.4"
+scikit-learn = "^1.6.1"
+xgboost = "^3.0.1"
+lightgbm = "^4.6.0"
+catboost = "^1.2.8"
+shap = "^0.47.2"
+streamlit = "^1.45.1"
+jupyter = "^1.1.1"
+notebook = "^7.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
